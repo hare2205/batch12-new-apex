@@ -1,0 +1,13 @@
+calculate c1 =new calculate();
+date newDate = date.newInstance(2016, 4, 8);
+boolean lpCheck =c1.checkLeapYear(newDate);
+system.debug(newDate + 'check leap year'+ lpCheck);
+integer sum33 = c1.add(10,15,25);
+system.debug(sum33);
+integer sum1 = c1.add(10, 15);
+system.debug(sum1);
+string r = c1.printAndReturnMsg('print this asap');
+system.debug(r);
+string message = 'print my message';
+c1.printNewMessage(message);
+c1.welcomeMessage();

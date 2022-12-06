@@ -1,0 +1,3 @@
+SELECT Id, name FROM Account
+
+// latest created 3 accounts
